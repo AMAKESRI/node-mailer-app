@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "user": "mouhssineassaoud@gmail.com",
-  "pass": "2012xm...",
+  "user": "example@gmail.com",
+  "pass": "{password}",
   "author": "",
   "license": "ISC",
   "dependencies": {
