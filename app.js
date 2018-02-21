@@ -5,6 +5,8 @@ const exphbs = require('express-handlebars');
 
 const nodeMailer = require('./node-mailer');
 
+const config = require('./package.json');
+
 
 
 const app = express();
@@ -42,7 +44,7 @@ app.post('/send' , (req, res)=> {
 	`;
 
     var mailOptions = {
-        from: "mouhssineassaoud@gmail.com",
+        from: config.user,
         to: "mouhssineassaoud@gmail.com",
         subject: "Hello",
         html: output
